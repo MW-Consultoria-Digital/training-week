@@ -1,17 +1,18 @@
 ## Training Week 1
 ### Day 1
 - TypeScript
-- [ ] Basic Types
-- [ ] Interfaces
-- [ ] Functions
-- [ ] Generics
-- [ ] Enums
+- [x] Basic Types
+- [x] Interfaces
+- [x] Functions
+- [x] Generics
+- [x] Enums
 
 - JavaScript
-- [ ] ES6
-- [ ] Promises
-- [ ] Async/Await
-- [ ] Array Methods
+- [x] ES6
+- [x] Arrow Functions / Functions
+- [x] Promises
+- [x] Async/Await
+- [x] Array Methods 
 - [ ] Object Methods
 - [ ] Variable Scope
 
@@ -21,5 +22,7 @@
 - [ ] Liskov Substitution Principle    
 - [ ] Interface Segregation Principle
 - [ ] Dependency Inversion Principle
+
+- Git 
 
 ### Day 2
