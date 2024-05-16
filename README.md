@@ -13,8 +13,9 @@
 - [x] Promises
 - [x] Async/Await
 - [x] Array Methods 
-- [ ] Object Methods
-- [ ] Variable Scope
+- [x] Object Methods
+- [x] Variable Scope
+- [x] Conditional Statements
 
 - SOLID
 - [ ] Single Responsibility Principle
@@ -23,6 +24,24 @@
 - [ ] Interface Segregation Principle
 - [ ] Dependency Inversion Principle
 
-- Git 
 
 ### Day 2
+- Git 
+- [ ] Basic Commands
+- [x] Branching
+- [ ] Reabasing
+- [x] Commit Messages
+- [ ] Git Flow 
+- React
+- [ ] Components
+- [ ] Props
+- [ ] State
+- [ ] Lifecycle Methods
+- [ ] Hooks
+- [ ] Context
+- [ ] Redux
+- Tailwind CSS
+- [ ] Flexbox
+- [ ] Grid
+- [ ] Responsive Design
+- [ ] Customizing Tailwind
