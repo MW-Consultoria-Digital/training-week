@@ -1,28 +1,22 @@
 import React from 'react'
 import { UserInfo } from './UserInfo'
+import userMock from './UserMock'
 
 
 const ArraySample = [ 
     {
         name: 'Edgar',
-        lastName: 'Maldonado',
-    }, 
-    {
-        name: 'Juan',
-        lastName: 'Perez',
-    },
-    {
-        name: 'Maria',
-        lastName: 'Gonzalez',
+        email: 'Maldonado',
     }
+    
 ]
 
 export const User = () => {
-// const user = getUserInfo tiene toda la información del usuario!!! >>>>> set storage 
+   
   return (
     <>
         {ArraySample.map((user, index) => (
-            <UserInfo key={`${user.name}-${index}`} name={user.name} lastName={user.lastName} age={32} />
+            <UserInfo key={`${user.name}-${index}`} name={userMock.name} email={userMock.email} age={userMock.age} />
         ))} 
     </>
   )

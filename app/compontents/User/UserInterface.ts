@@ -1,6 +1,6 @@
 export type UserInfoProps = { 
     name: string;
-    lastName: string;
+    email: string;
     age: number;
     contry?: string;
 }
