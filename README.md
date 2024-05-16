@@ -27,19 +27,19 @@
 
 ### Day 2
 - Git 
-- [ ] Basic Commands
+- [x] Basic Commands
 - [x] Branching
-- [ ] Reabasing
+- [x] Reabasing
 - [x] Commit Messages
-- [ ] Git Flow 
+- [x] Git Flow 
 - React
-- [ ] Components
-- [ ] Props
-- [ ] State
-- [ ] Lifecycle Methods
-- [ ] Hooks
-- [ ] Context
-- [ ] Redux
+- [x] Components
+- [x] Props
+- [x] State
+- [x] Lifecycle Methods
+- [x] Hooks
+- [x] Context
+- [x] Redux
 - Tailwind CSS
 - [ ] Flexbox
 - [ ] Grid
