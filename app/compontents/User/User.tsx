@@ -18,7 +18,7 @@ const ArraySample = [
 ]
 
 export const User = () => {
-   
+// const user = getUserInfo tiene toda la información del usuario!!! >>>>> set storage 
   return (
     <>
         {ArraySample.map((user, index) => (
