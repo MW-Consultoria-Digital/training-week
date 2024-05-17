@@ -1,31 +1,30 @@
 'use client'
 
-import { useCallback, useEffect, useMemo, useState } from "react";
-import { UserInfoProps } from "./UserInterface";
+import { useEffect } from "react";
 import { UserErrorsEnum } from "./util";
 
-const USER_ERROR = 'user_not_found' // esto lo esta regresando el BackEnd o el API 
+// type de userinterface para no hacer scope global desde el archivo
+type UserInfoProps = { 
+  name: string;
+  lastName: string;
+  age: number;
+  contry?: string;
+};
 
-export const UserInfo = ({name, lastName, age}: UserInfoProps) => {
-  const [ages, setAges] = useState<number>(0) /// undefined
-  const userExist = useMemo(() => {
-    !UserErrorsEnum[USER_ERROR] ? true : false
-  }, [USER_ERROR])
+const USER_ERROR = 'user_not_found'; // esto lo está regresando el BackEnd o el API 
 
-  const getFullName = useCallback(() => {
-      return `${name} ${lastName}`
-  }, [name, lastName])
+export const UserInfo = ({ name, lastName }: UserInfoProps) => {
+  const userExist = !UserErrorsEnum[USER_ERROR];
 
   useEffect(() => {
-    // Mounting commpontet 
-    console.log('Mounting')
+    // Mounting component
+    console.log('Mounting');
     return () => {
-      console.log('Unmounting')
-    }
-  }, [age]) // updating component
+      console.log('Unmounting');
+    };
+  }, []); 
 
   return (
     <div>{name}</div>
-  )
-}
-
+  );
+};
