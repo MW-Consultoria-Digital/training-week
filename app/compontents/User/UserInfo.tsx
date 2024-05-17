@@ -3,7 +3,6 @@
 import { useEffect } from "react";
 import { UserErrorsEnum } from "./util";
 
-// type de userinterface para no hacer scope global desde el archivo
 type UserInfoProps = { 
   name: string;
   lastName: string;
