@@ -1,5 +1,7 @@
 ## Training Week 1
+
 ### Day 1
+
 - TypeScript
 - [x] Basic Types
 - [x] Interfaces
@@ -12,7 +14,7 @@
 - [x] Arrow Functions / Functions
 - [x] Promises
 - [x] Async/Await
-- [x] Array Methods 
+- [x] Array Methods
 - [x] Object Methods
 - [x] Variable Scope
 - [x] Conditional Statements
@@ -20,18 +22,18 @@
 - SOLID
 - [ ] Single Responsibility Principle
 - [ ] Open/Closed Principle
-- [ ] Liskov Substitution Principle    
+- [ ] Liskov Substitution Principle
 - [ ] Interface Segregation Principle
 - [ ] Dependency Inversion Principle
 
-
 ### Day 2
-- Git 
+
+- Git
 - [x] Basic Commands
 - [x] Branching
 - [x] Reabasing
 - [x] Commit Messages
-- [x] Git Flow 
+- [x] Git Flow
 - React
 - [x] Components
 - [x] Props
@@ -41,7 +43,13 @@
 - [x] Context
 - [x] Redux
 - Tailwind CSS
-- [ ] Flexbox
-- [ ] Grid
-- [ ] Responsive Design
-- [ ] Customizing Tailwind
+- [x] Flexbox
+- [x] Grid
+- [x] Responsive Design
+- [x] Customizing Tailwind
+
+### Day 3
+
+- Project Structure
+- [x] API Integration
+- [x] Fetch

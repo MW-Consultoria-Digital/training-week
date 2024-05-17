@@ -1,8 +1,5 @@
-import { User } from "./compontents/User/User";
+import { Posts } from "./compontents/Post/Posts";
 
 export default function Home() {
-  return (
-    <><h1>Training Week MMultimedios</h1>
-    <User /></>
-  );
+  return <Posts />;
 }
