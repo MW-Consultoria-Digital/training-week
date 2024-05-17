@@ -1,5 +1,6 @@
 import React from 'react'
 import { UserInfo } from './UserInfo'
+import { UserProfile } from './userProfile'
 
 
 const ArraySample = [ 
@@ -24,6 +25,7 @@ export const User = () => {
         {ArraySample.map((user, index) => (
             <UserInfo key={`${user.name}-${index}`} name={user.name} lastName={user.lastName} age={32} />
         ))} 
+        <UserProfile />
     </>
   )
 }
